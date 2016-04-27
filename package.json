@@ -1,0 +1,14 @@
+{
+  "name": "tvfy",
+  "description": "web app search tv show",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  },
+  "scripts": {
+    "build-js": "browserify index.js > app.js"
+  }
+}
